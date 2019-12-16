@@ -1,0 +1,44 @@
+<section class="container">
+  
+  <h2>{{pageTitle}}</h2>
+  
+  <form  [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+    
+    <div class="row">
+      <div class=" col">
+        <label for="marca">MARCA</label>
+        <input type="text" class="form-control" id="marca" placeholder="marca" formControlName="marca">
+      </div>      
+      <div class=" col">
+        <label for="modelo">MODELO</label>
+        <input type="text" class="form-control" id="modelo" placeholder="modelo" formControlName="modelo">
+      </div>
+    </div>    
+    
+    <div class="row">
+      <div class=" col">
+        <label for="matricula">MATRICULA</label>
+        <input type="text" class="form-control" id="matricula" placeholder="matricula" formControlName="matricula">
+      </div>      
+      <div class="col">
+        <label for="color">COLOR</label>
+        <input type="text" class="form-control" id="color" placeholder="color" formControlName="color">
+      </div>
+    </div>    
+    
+    <div class="row">
+      <div class=" col">
+        <label for="precio">PRECIO</label>
+        <input type="text" class="form-control" id="precio" placeholder="precio" formControlName="precio" required>
+      </div>
+      <div class=" col">
+        <button class="btn btn-success">Añadir nuevo coche</button>
+      </div>
+    </div> 
+    
+  </form>
+  
+  <!-- <h3>{{ profileForm.value | json}}</h3> -->
+  
+</section>
+

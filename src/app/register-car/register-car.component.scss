@@ -1,0 +1,11 @@
+form{
+    padding: 15px;
+    background: #f2f2f2;
+    border: 1px solid #dee2e6;
+    button{
+        margin-top: 30px;
+    }
+    & .col{
+        margin-bottom: 30px;
+    }
+}
