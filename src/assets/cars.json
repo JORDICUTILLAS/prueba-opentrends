@@ -1,0 +1,26 @@
+[
+      {
+        "carId": 1,
+        "marca": "ALFA ROMEO",
+        "modelo": "STELVIO",
+        "matricula": "4526-HTL",
+        "color": "ROJO",
+        "precio": 40.000 
+      },
+      {
+        "carId": 2,
+        "marca": "BMW",
+        "modelo": "3",
+        "matricula": "9845-JGM",
+        "color": "BLANCO",
+        "precio": 35.000 
+      },
+      {
+        "carId": 5,
+        "marca": "SEAT",
+        "modelo": "ATECA",
+        "matricula": "2154-HKL",
+        "color": "AZUL",
+        "precio": 25.000 
+      }
+]
